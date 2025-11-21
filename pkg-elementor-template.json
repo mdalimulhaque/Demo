@@ -1,0 +1,809 @@
+{
+  "title": "PKG Secret Lip Balm Landing Page",
+  "type": "page",
+  "content": [
+    {
+      "id": "hero-section",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_position": "middle",
+        "flex_direction": "row",
+        "gap": "custom",
+        "custom_gap": {
+          "unit": "px",
+          "size": 32
+        }
+      },
+      "elements": [
+        {
+          "id": "hero-left-content",
+          "elType": "section",
+          "settings": {
+            "flex_position": "middle",
+            "content_width": "custom",
+            "custom_width": {
+              "unit": "%",
+              "size": 50
+            }
+          },
+          "elements": [
+            {
+              "id": "hero-badge",
+              "elType": "heading",
+              "settings": {
+                "title": "সীমিত সময়ের অফার - ২৯% ছাড়",
+                "header_size": "h4",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "background_color": "#f43f5e",
+                "border_radius": {
+                  "unit": "px",
+                  "size": 999
+                }
+              }
+            },
+            {
+              "id": "hero-title",
+              "elType": "heading",
+              "settings": {
+                "title": "শুষ্ক ও ফাটা ঠোঁটকে বিদায় জান!",
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#111827",
+                "typography_typography": "Inter"
+              }
+            },
+            {
+              "id": "hero-subtitle",
+              "elType": "heading",
+              "settings": {
+                "title": "এখন পান PKG সিক্রেট লিপবামের গভীর প্রবেশ করে এবং মাত্র কয়েক দিনের মধ্যে",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#666666"
+              }
+            },
+            {
+              "id": "hero-features",
+              "elType": "container",
+              "settings": {
+                "columns": 3,
+                "column_gap": {
+                  "unit": "px",
+                  "size": 16
+                }
+              },
+              "elements": [
+                {
+                  "id": "feature-1",
+                  "elType": "container",
+                  "settings": {
+                    "background_color": "#FFFFFF",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "size": 24
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "feature-1-icon",
+                      "elType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "library": "fa-solid",
+                          "value": "fa-tint"
+                        },
+                        "icon_color": "#3b82f6",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 48
+                        }
+                      }
+                    },
+                    {
+                      "id": "feature-1-text",
+                      "elType": "heading",
+                      "settings": {
+                        "title": "২৪ ঘণ্টা গভীর আর্দ্রতা",
+                        "header_size": "h6",
+                        "align": "center",
+                        "title_color": "#1f2937"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "feature-2",
+                  "elType": "container",
+                  "settings": {
+                    "background_color": "#FFFFFF",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "size": 24
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "feature-2-icon",
+                      "elType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "library": "fa-solid",
+                          "value": "fa-shield-alt"
+                        },
+                        "icon_color": "#10b981",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 48
+                        }
+                      }
+                    },
+                    {
+                      "id": "feature-2-text",
+                      "elType": "heading",
+                      "settings": {
+                        "title": "ফাটা ঠোঁট নিরাময়",
+                        "header_size": "h6",
+                        "align": "center",
+                        "title_color": "#059669"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "feature-3",
+                  "elType": "container",
+                  "settings": {
+                    "background_color": "#FFFFFF",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "size": 24
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "feature-3-icon",
+                      "elType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "library": "fa-solid",
+                          "value": "fa-star"
+                        },
+                        "icon_color": "#d97706",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 48
+                        }
+                      }
+                    },
+                    {
+                      "id": "feature-3-text",
+                      "elType": "heading",
+                      "settings": {
+                        "title": "প্রাকৃতিক আভা",
+                        "header_size": "h6",
+                        "align": "center",
+                        "title_color": "#7c3aed"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hero-right-content",
+          "elType": "section",
+          "settings": {
+            "flex_position": "middle",
+            "content_width": "custom",
+            "custom_width": {
+              "unit": "%",
+              "size": 50
+            }
+          },
+          "elements": [
+            {
+              "id": "hero-image-container",
+              "elType": "container",
+              "settings": {
+                "background_color": "#ffffff",
+                "border_radius": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "margin_bottom": {
+                  "unit": "px",
+                  "size": 32
+                }
+              },
+              "elements": [
+                {
+                  "id": "hero-image",
+                  "elType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "/wp-content/uploads/pkg-lip-balm/product-hero.png",
+                      "image_size": "full",
+                      "border_radius": {
+                        "unit": "px",
+                        "size": 16
+                      }
+                    }
+                  }
+                },
+                {
+                  "id": "hero-image-overlay",
+                  "elType": "container",
+                  "settings": {
+                    "background_overlay": {
+                      "background": "linear-gradient(135deg, rgba(244, 63, 94, 0.1) 0%, rgba(0, 0, 0, 0) 100%)"
+                    }
+                  }
+                },
+                {
+                  "id": "hero-badges",
+                  "elType": "container",
+                  "elements": [
+                    {
+                      "id": "new-badge",
+                      "elType": "heading",
+                      "settings": {
+                        "title": "NEW",
+                        "header_size": "h6",
+                        "align": "center",
+                        "title_color": "#FFFFFF",
+                        "background_color": "#f43f5e",
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 999
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "size": "12 24"
+                        }
+                      }
+                    },
+                    {
+                      "id": "premium-badge",
+                      "elType": "heading",
+                      "settings": {
+                        "title": "PREMIUM",
+                        "header_size": "h6",
+                        "align": "center",
+                        "title_color": "#FFFFFF",
+                        "background_color": "#8b5cf6",
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 999
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "size": "12 24"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "hero-crown-icon",
+                  "elType": "icon",
+                  "settings": {
+                    "selected_icon": {
+                      "library": "fa-solid",
+                      "value": "fa-crown"
+                    },
+                    "icon_color": "#f43f5e",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 32
+                    },
+                    "position": "absolute",
+                    "bottom": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "right": {
+                      "unit": "px",
+                      "size": 16
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "hero-pricing",
+              "elType": "container",
+              "settings": {
+                "background_color": "#ffffff",
+                "border_radius": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "text_align": "center"
+              },
+              "elements": [
+                {
+                  "id": "price-container",
+                  "elType": "container",
+                  "elements": [
+                    {
+                      "id": "original-price",
+                      "elType": "text",
+                      "settings": {
+                        "title": "৫৫০ টাকা",
+                        "header_size": "h4",
+                        "title_color": "#9ca3af",
+                        "typography_typography": "Inter"
+                      }
+                    },
+                    {
+                      "id": "discount-badge",
+                      "elType": "heading",
+                      "settings": {
+                        "title": "২৯% ছাড়",
+                        "header_size": "h4",
+                        "align": "center",
+                        "title_color": "#FFFFFF",
+                        "background_color": "#f59e0b",
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 999
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "size": "8 16"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "current-price",
+                  "elType": "heading",
+                  "settings": {
+                    "title": "৩৯০ টাকা",
+                    "header_size": "h2",
+                    "align": "center",
+                    "title_color": "#111827",
+                    "typography_typography": "Inter"
+                  }
+                },
+                {
+                  "id": "product-name",
+                  "elType": "heading",
+                  "settings": {
+                    "title": "PKG সিক্রেট লিপবাম",
+                    "header_size": "h3",
+                    "align": "center",
+                    "title_color": "#374151"
+                  }
+                },
+                {
+                  "id": "product-weight",
+                  "elType": "text",
+                  "settings": {
+                    "title": "Net Weight: 1.5g",
+                    "header_size": "h4",
+                    "align": "center",
+                    "title_color": "#6b7280"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "hero-cta-button",
+              "elType": "button",
+              "settings": {
+                "text": "এখনই কিনুন",
+                "background_color": "#f43f5e",
+                "text_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "size": "lg",
+                "align": "center",
+                "typography_typography": "Inter",
+                "button_hover_color": "#e11d48"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "problem-solution-section",
+      "elType": "section",
+      "elements": [
+        {
+          "id": "section-header",
+          "elType": "container",
+          "elements": [
+            {
+              "id": "section-title",
+              "elType": "heading",
+              "settings": {
+                "title": "সমস্যা ও সমাধান",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#111827"
+              }
+            },
+            {
+              "id": "section-subtitle",
+              "elType": "heading",
+              "settings": {
+                "title": "আপনার ঠোঁট কি এই সমস্যাগুলোর সম্মুখীন হচ্ছে?",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#666666"
+              }
+            }
+          ]
+        },
+        {
+          "id": "problem-cards",
+          "elType": "container",
+          "settings": {
+            "columns": 3,
+            "column_gap": {
+              "unit": "px",
+              "size": 32
+            }
+          },
+          "elements": [
+            {
+              "id": "problem-card-1",
+              "elType": "container",
+              "settings": {
+                "background_color": "#ffffff",
+                "border_radius": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": 32
+                }
+              },
+              "elements": [
+                {
+                  "id": "problem-1-emoji",
+                  "elType": "icon",
+                  "settings": {
+                    "selected_icon": {
+                      "library": "fa-solid",
+                      "value": "fa-frown"
+                    },
+                    "icon_color": "#ef4444",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 64
+                    }
+                  }
+                },
+                {
+                  "id": "problem-1-title",
+                  "elType": "heading",
+                  "settings": {
+                    "title": "ঠোঁট কি রুক্ষতা ও শুষ্কতার কারণে ফেটে যাচ্ছে?",
+                    "header_size": "h3",
+                    "align": "center",
+                    "title_color": "#dc2626"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "problem-card-2",
+              "elType": "container",
+              "settings": {
+                "background_color": "#ffffff",
+                "border_radius": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": 32
+                }
+              },
+              "elements": [
+                {
+                  "id": "problem-2-emoji",
+                  "elType": "icon",
+                  "settings": {
+                    "selected_icon": {
+                      "library": "fa-solid",
+                      "value": "fa-meh"
+                    },
+                    "icon_color": "#f97316",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 64
+                    }
+                  }
+                },
+                {
+                  "id": "problem-2-title",
+                  "elType": "heading",
+                  "settings": {
+                    "title": "ঠোঁটের স্বাভাবিক উজ্জ্বলতা হারিয়ে কালো দাগ দেখা দিয়েছে?",
+                    "header_size": "h3",
+                    "align": "center",
+                    "title_color": "#ea580c"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "problem-card-3",
+              "elType": "container",
+              "settings": {
+                "background_color": "#ffffff",
+                "border_radius": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": 32
+                }
+              },
+              "elements": [
+                {
+                  "id": "problem-3-emoji",
+                  "elType": "icon",
+                  "settings": {
+                    "selected_icon": {
+                      "library": "fa-solid",
+                      "value": "fa-tired"
+                    },
+                    "icon_color": "#f59e0b",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 64
+                    }
+                  }
+                },
+                {
+                  "id": "problem-3-title",
+                  "elType": "heading",
+                  "settings": {
+                    "title": "সাধারণ লিপবাম কি ঘন ঘন লাগানোর পরও দীর্ঘস্থায়ী আর্দ্রতা দিচ্ছে না?",
+                    "header_size": "h3",
+                    "align": "center",
+                    "title_color": "#d97706"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "solution-card",
+          "elType": "container",
+          "settings": {
+            "background_color": "#ffffff",
+            "border_radius": {
+              "unit": "px",
+              "size": 24
+            },
+            "padding": {
+              "unit": "px",
+              "size": 48
+            }
+          },
+          "elements": [
+            {
+              "id": "solution-badge",
+              "elType": "heading",
+              "settings": {
+                "title": "আলটিমেট সমাধান",
+                "header_size": "h4",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "background_color": "#f43f5e",
+                "border_radius": {
+                  "unit": "px",
+                  "size": 999
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "12 24"
+                }
+              }
+            },
+            {
+              "id": "solution-title",
+              "elType": "heading",
+              "settings": {
+                "title": "PKG সিক্রেট লিপবাম হলো আপনার চূড়ান্ত সমাধান!",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#111827",
+                "typography_typography": "Inter"
+              }
+            },
+            {
+              "id": "solution-description",
+              "elType": "text",
+              "settings": {
+                "title": "আমাদের বিশেষ ফর্মুলা ঠোঁটের গভীরে প্রবেশ করে এবং মাত্র কয়েক দিনের মধ্যে ফাটা ত্বক মেরামত করে। এটি আপনার ঠোঁটে সারাদিনের জন্য একটি সুরক্ষামূলক স্তরে মুড়ে রাখে, যাতে ঠোঁটে কোমলতা ফিরে আসে এবং প্রাকৃতিক গোলাপি আভা বজায় থাকে।",
+                "header_size": "p",
+                "align": "center",
+                "title_color": "#374151"
+              }
+            },
+            {
+              "id": "solution-features",
+              "elType": "container",
+              "settings": {
+                "columns": 3,
+                "column_gap": {
+                  "unit": "px",
+                  "size": 16
+                }
+              },
+              "elements": [
+                {
+                  "id": "solution-feature-1",
+                  "elType": "container",
+                  "settings": {
+                    "background_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "size": 16
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "solution-feature-1-icon",
+                      "elType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "library": "fa-solid",
+                          "value": "fa-check-circle"
+                        },
+                        "icon_color": "#10b981",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 24
+                        }
+                      }
+                    },
+                    {
+                      "id": "solution-feature-1-text",
+                      "elType": "heading",
+                      "settings": {
+                        "title": "দ্রুত নিরাময়",
+                        "header_size": "h6",
+                        "align": "center",
+                        "title_color": "#111827"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "solution-feature-2",
+                  "elType": "container",
+                  "settings": {
+                    "background_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "size": 16
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "solution-feature-2-icon",
+                      "elType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "library": "fa-solid",
+                          "value": "fa-shield-alt"
+                        },
+                        "icon_color": "#3b82f6",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 24
+                        }
+                      }
+                    },
+                    {
+                      "id": "solution-feature-2-text",
+                      "elType": "heading",
+                      "settings": {
+                        "title": "সারাদিনের সুরক্ষা",
+                        "header_size": "h6",
+                        "align": "center",
+                        "title_color": "#111827"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "solution-feature-3",
+                  "elType": "container",
+                  "settings": {
+                    "background_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "size": 16
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "solution-feature-3-icon",
+                      "elType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "library": "fa-solid",
+                          "value": "fa-star"
+                        },
+                        "icon_color": "#8b5cf6",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 24
+                        }
+                      }
+                    },
+                    {
+                      "id": "solution-feature-3-text",
+                      "elType": "heading",
+                      "settings": {
+                        "title": "প্রাকৃতিক আভা",
+                        "header_size": "h6",
+                        "align": "center",
+                        "title_color": "#111827"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "post_title": "PKG Secret Lip Balm - Premium Landing Page",
+    "template": "elementor_canvas"
+  }
+}
